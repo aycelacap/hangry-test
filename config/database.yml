@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: hangry_production
-  username: hangry
-  password: <%= ENV["HANGRY_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
