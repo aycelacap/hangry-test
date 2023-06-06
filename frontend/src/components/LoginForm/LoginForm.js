@@ -29,7 +29,7 @@ function LoginForm() {
         // debugger
         e.preventDefault();
         e.stopPropagation();
-        console.log(e, 'from handleSubmit')
+        // console.log(e, 'from handleSubmit')
 
         setErrors([]);
         dispatch(sessionActions.login({ email, password }))
