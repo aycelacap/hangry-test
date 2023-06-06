@@ -1,0 +1,25 @@
+{
+  "name": "hangry-main",
+  "version": "1.0.0",
+  "description": "A yelp clone.",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "16.14.0"
+  },
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aycelacap/hangry-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aycelacap/hangry-test/issues"
+  },
+  "homepage": "https://github.com/aycelacap/hangry-test#readme"
+}
