@@ -14,7 +14,7 @@ function LoginForm() {
     const history = useHistory();
 
     const demoLogin = (e) => {
-        debugger
+        // debugger
         e.preventDefault();
         e.stopPropagation();
         dispatch(sessionActions.login({
@@ -26,7 +26,7 @@ function LoginForm() {
     }
 
     const handleSubmit = (e) => {
-        debugger
+        // debugger
         e.preventDefault();
         e.stopPropagation();
         console.log(e, 'from handleSubmit')
